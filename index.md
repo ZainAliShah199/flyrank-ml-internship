@@ -9,9 +9,16 @@
 
 ---
 
-# Abstract
+## Abstract
 
-This project investigates whether observable search performance signals can help prioritize content pages for refresh review. Using anonymized FlyRank ML Internship dataset information, a rule-based baseline and a Random Forest model were developed and compared. The approaches were evaluated using a grouped validation strategy designed to reduce information leakage between similar content sources. The Random Forest model achieved higher ranking performance than the baseline on the evaluated split, showing that combining multiple signals can improve prioritization. The output is intended as a decision-support tool for human reviewers and does not automate content decisions.
+Content teams often need to decide which pages should be reviewed and refreshed first, but manual prioritization does not scale across large websites. This project investigates whether observable search performance signals can help rank pages for content refresh review. Using anonymized FlyRank ML Internship dataset signals, I developed a baseline rule and compared it with a Random Forest model using grouped validation. The model showed higher Precision@50 than the baseline on the evaluated split, indicating that combining multiple signals can improve prioritization. The output is designed as a decision-support tool for human reviewers and does not automate publishing decisions or claim causal effects.
+
+
+## Introduction / Problem Statement
+
+Large websites contain thousands of content pages that require continuous monitoring and improvement. Content teams need a practical way to identify which pages deserve attention first instead of manually reviewing every page.
+
+This project focuses on the content refresh prioritization problem: using observable search performance signals to create a ranked review queue. The goal is not to predict search engine behavior, but to provide decision-support that helps human teams prioritize possible refresh opportunities.
 
 ---
 
