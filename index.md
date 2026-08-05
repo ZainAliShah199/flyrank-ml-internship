@@ -15,14 +15,12 @@ Content teams often need to decide which pages should be reviewed and refreshed 
 
 ---
 
-## Introduction / Problem Statement
+## 1. Introduction / Problem Statement
 
 Large websites contain thousands of content pages that require continuous monitoring and improvement. Content teams need a practical way to identify which pages deserve attention first instead of manually reviewing every page.
 
 This project focuses on the content refresh prioritization problem: using observable search performance signals to create a ranked review queue. The goal is not to predict search engine behavior, but to provide decision-support that helps human teams prioritize possible refresh opportunities.
 
-
-# 1. Problem Framing
 
 ## Research Question
 
