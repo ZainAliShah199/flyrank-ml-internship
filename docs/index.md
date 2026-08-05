@@ -131,7 +131,7 @@ Leakage experiments showed that including invalid information could artificially
 
 ## Model vs Baseline
 
-![Model vs Baseline](work/figures/model_vs_baseline.png)
+![Model vs Baseline](work/figure/model_vs_baseline.png)
 
 
 The Random Forest model achieved higher Precision@50 compared with the baseline on the evaluated split.
@@ -142,7 +142,7 @@ The result suggests that combining multiple signals can improve prioritization c
 # Feature Importance
 
 
-![Feature Importance](work/figures/feature_importance.png)
+![Feature Importance](work/figure/feature_importance.png)
 
 
 The feature importance analysis shows which observable signals contributed most to the model decisions.
@@ -151,7 +151,7 @@ The feature importance analysis shows which observable signals contributed most 
 # Leakage Audit
 
 
-![Leakage Comparison](work/figures/leakage_comparison.png)
+![Leakage Comparison](work/figure/leakage_comparison.png)
 
 
 The leakage audit demonstrated that future or label-related information can create unrealistic performance improvements.
@@ -187,7 +187,7 @@ Recommended actions:
 5. Monitor results after content updates.
 
 
-![Recommended Actions](work/figures/recommended_actions.png)
+![Recommended Actions](work/figure/recommended_actions.png)
 
 
 # 7. Reproducibility
